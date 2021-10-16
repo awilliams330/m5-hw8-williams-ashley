@@ -9,3 +9,51 @@
 body {
   font-family: 'Bebas Neue', Impact, sans-serif;
 }
+
+header {
+  background-color: #6003C3;
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+  background-color: #6003C3;
+  color: white;
+  font-size: 61px;
+  width: 19%;
+}
+
+
+p#message {
+  text-align: center;
+  font-size: 40px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+#box-1, #box-2, #box-3 {
+  width: 250px;
+  height: 250px;
+  border: solid 6px #000000;
+  text-align: center;
+  font-size: 30px;
+}
+
+#box-1 {
+  background-color: #FCFF00;
+}
+
+#box-2 {
+  background-color: #57FFC9;
+}
+
+#box-3 {
+  background-color: #A5FF01;
+}
+
